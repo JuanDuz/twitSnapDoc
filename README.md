@@ -16,7 +16,6 @@ Esta aplicación fue desarrollada en Android utilizando **Jetpack Compose** como
 3. [Cómo ejecutar la app desde Android Studio](#cómo-ejecutar-la-app-desde-android-studio)
 4. [Preguntas frecuentes](#preguntas-frecuentes)
 5. [Aspectos técnicos](#aspectos-técnicos)
-6. [Contacto](#contacto)
 
 ---
 
