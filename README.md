@@ -76,3 +76,72 @@ Esta aplicación fue desarrollada con las siguientes tecnologías y prácticas:
 ---
 
 ¡Gracias por usar **TwitSnap**!
+
+
+# Manual de usuario Back office
+
+## Ingreso a la plataforma
+Para ingresar a la plataforma, es necesario iniciar sesión con una cuenta de administrador. Estas cuentas son creadas exclusivamente por otros administradores. Si necesitas una cuenta, pídele a un administrador que te cree una con tus credenciales.
+
+![login screen](images/login.png)
+
+## Navegación
+Una vez dentro de la plataforma, verás un cartel de bienvenida que describe las diferentes opciones disponibles. En la barra de navegación, ubicada en el lado izquierdo de la pantalla, encontrarás las distintas secciones. Haz clic en una opción para navegar hacia ella. A continuación, te explicamos qué encontrarás en cada sección:
+
+![home page](images/home.png)
+
+### Users
+En la pestaña **Users** puedes ver una lista de todos los usuarios registrados en la plataforma.
+
+- **Opciones de visualización:**
+  En la parte inferior derecha del recuadro, puedes seleccionar cuántos usuarios quieres ver por página y cambiar entre las páginas disponibles.
+
+- **Ordenación y filtrado:**
+  Puedes ordenar y filtrar la lista por cualquiera de las columnas, simplemente haciendo clic en el título de la columna deseada.
+
+- **Visualización de detalles:**
+  Haz clic en el botón Visualizar (en la última columna de cada fila) para acceder a los datos específicos de un usuario.
+
+![users list](images/user-list.png)
+
+Además de visualizar los datos, podrás bloquear o desbloquear al usuario seleccionado si eres administrador.
+
+![user info](images/user-info.png)
+
+### Create Admin
+En la pestaña **Create Admin**, puedes crear nuevas cuentas de administrador con las credenciales que desees.
+
+![create admin page](images/create-admin.png)
+
+> **Nota:** No es posible crear dos administradores con el mismo username, por lo que deberás asegurarte de elegir un nombre único.
+
+### Twitsnaps
+En la sección **Twitsnaps** encontrarás una lista similar a la de usuarios, pero mostrando una previsualización de todos los twitsnaps registrados en el sistema.
+
+- **Visualización de detalles:**
+  Al igual que en la sección de usuarios, al hacer clic en el botón Visualizar, podrás ver la información completa de un twitsnap específico.
+
+![twitsnap list](images/twitsnap-list.png)
+
+Al igual que en los Users, al clickear en la acción de visualizar podremos ver la información más específica del twitsnap elegido:
+
+![twitsnap info](images/twitsnap-info.png)
+
+### Métricas
+En la pestaña **Metrics**, puedes consultar diversas estadísticas relacionadas con el funcionamiento de la plataforma. Estas se dividen en las siguientes secciones:
+
+- **Registration:** Muestra métricas sobre los registros de usuarios, incluyendo la tasa de éxito y la distribución de los métodos de registro.
+
+![registry metrics](images/metrics-registry.png)
+
+- **Login:** Incluye estadísticas sobre los inicios de sesión, como el número total, la tasa de éxito y la distribución de métodos utilizados.
+
+![login metrics](images/metrics-login.png)
+
+- **Locations:** Presenta un desglose de los usuarios por ubicación geográfica (país).
+
+![locations metrics](images/metrics-locations.png)
+
+- **Users blocked:** Proporciona información sobre los bloqueos de usuarios, incluyendo: la cantidad bloqueados que hubo, cuántos hay actualmente, el tiempo promedio de bloqueo y las razones.
+
+![users block metrics](images/metrics-blocked.png)
